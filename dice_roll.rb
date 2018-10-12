@@ -4,5 +4,6 @@
 
 def roll
   #1 + rand(6)
-  (1..6).to_a.sample
+  #(1..6).to_a.sample
+  rand(1..6)
 end
