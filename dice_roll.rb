@@ -4,5 +4,5 @@
 
 def roll
   #1 + rand(6)
-  Array (1..6)
+  Array (1..6).sample
 end
